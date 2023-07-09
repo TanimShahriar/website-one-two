@@ -44,24 +44,32 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border: 2px solid red;
   height: 80vh;
   background-image: url("assets/img/background.png");
+  background-position: center;
+  background-size: cover;
 }
+
+.description-section {
+  padding: 50px 0px;
+}
+
 
 .description-section h2 {
-  width: 216px;
-  margin-bottom: 10px;
+  width: 350px;
+  font-size: 38px;
 }
 
+
 .description-section p {
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   font-size: 12px;
 }
 
 .light-logo {
-  width: 150px;
-  height: 120px;
+  width: 300px;
+  height: 220px;
 }
 
 .orange-btn {
@@ -72,3 +80,14 @@
   border-radius: 3px;
   text-transform: capitalize;
 }
+
+/* about us section started */
+.about-title {
+  text-align: center;
+}
+
+.about-logo {
+  width: 300px;
+}
+
+/* about us section end */
