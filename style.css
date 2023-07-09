@@ -44,7 +44,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 80vh;
+  height: 70vh;
   background-image: url("assets/img/background.png");
   background-position: center;
   background-size: cover;
@@ -82,12 +82,17 @@
 }
 
 /* about us section started */
-.about-title {
+.about-title,
+.service-title {
   text-align: center;
   text-transform: capitalize;
   padding-top: 20px;
   font-size: 35px;
   padding-bottom: 20px;
+}
+
+.about-us-section {
+  height: 55vh;
 }
 
 .about-us-div {
@@ -126,3 +131,53 @@
 }
 
 /* about us section end */
+
+/* service section started */
+.service-section-div {
+  background-color: #3f3d3d;
+  color: rgb(240, 229, 229);
+}
+
+.service-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 40vh;
+}
+
+.service-img {
+  width: 70px;
+  height: 70px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.single-service-section {
+  height: 280px;
+  width: 220px;
+  border: 1px solid none;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #120f0f;
+}
+
+.service-name {
+  text-transform: capitalize;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.service-details {
+  margin-bottom: 18px;
+  font-size: 14px;
+}
+
+.service-btn {
+  text-transform: capitalize;
+  border: 0;
+  padding: 8px 12px;
+  background-color: #756868;
+  color: azure;
+}
+
+/* service section end */
